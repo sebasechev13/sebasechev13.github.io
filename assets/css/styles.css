@@ -380,48 +380,6 @@ a {
     .social-icon li:last-child a {
       margin-right: 0px; }
 
-/**
- * -----------------------------------
- * Subscription and contact  "MESSAGE"
- * -----------------------------------
- */
-.subscription-success,
-.subscription-failed,
-.email-success,
-.email-failed,
-.email-loading {
-  font-size: 15px;
-  display: none;
-  text-align: center !important;
-  padding: 10px !important; }
-
-.email-loading {
-  color: #52B8FF; }
-  .email-loading img {
-    width: 15px;
-    position: relative;
-    top: -2px; }
-
-.subscription-failed,
-.email-failed {
-  color: #FF5252 !important; }
-  .subscription-failed .icon,
-  .email-failed .icon {
-    font-size: 20px;
-    position: relative;
-    top: 5px; }
-
-.subscription-success,
-.email-success {
-  color: #56CC35; }
-
-.subscription-failed .icon,
-.email-failed .icon,
-.subscription-success .icon,
-.email-success .icon {
-  font-size: 20px;
-  position: relative;
-  top: 5px; }
 
 /**
  * ------------------
@@ -1419,11 +1377,10 @@ body {
     Mobile Nav
 ==============
 */
-.old {
   /*==============
             Overlay            
   ================== */
-  /*  Navigation Menu */ }
+  /*  Navigation Menu */ 
   .old .navbar-collapse {
     position: fixed;
     top: 0;
